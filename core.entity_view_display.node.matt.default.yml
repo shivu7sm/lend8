@@ -1,0 +1,26 @@
+uuid: cdeec811-414a-4c7f-9747-cd4b0f79fd83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.matt.body
+    - node.type.matt
+  module:
+    - text
+    - user
+id: node.matt.default
+targetEntityType: node
+bundle: matt
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
