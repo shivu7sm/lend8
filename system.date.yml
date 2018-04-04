@@ -1,5 +1,5 @@
 country:
-  default: SG
+  default: GB
 first_day: 0
 timezone:
   default: UTC
