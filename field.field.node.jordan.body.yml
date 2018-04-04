@@ -1,0 +1,22 @@
+uuid: c95f2cd0-1956-437e-a00b-815df6d2949a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.jordan
+  module:
+    - text
+id: node.jordan.body
+field_name: body
+entity_type: node
+bundle: jordan
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,28 @@
+uuid: 84e9787e-a610-427b-98dc-1d10e2115c61
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.jordan.body
+    - node.type.jordan
+  module:
+    - text
+    - user
+id: node.jordan.teaser
+targetEntityType: node
+bundle: jordan
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

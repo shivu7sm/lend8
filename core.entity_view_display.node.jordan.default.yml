@@ -1,0 +1,26 @@
+uuid: 26f00d2f-9ca7-46dd-9ab8-fc7ec2877449
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.jordan.body
+    - node.type.jordan
+  module:
+    - text
+    - user
+id: node.jordan.default
+targetEntityType: node
+bundle: jordan
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
